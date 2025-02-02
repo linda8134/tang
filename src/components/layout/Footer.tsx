@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import Container from '../shared/Container';
 
@@ -22,7 +21,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-secondary py-12">
+    <footer className="bg-white/10 py-12">
       <Container>
         <div className="flex justify-center">
           <div className="grid grid-cols-3 md:grid-cols-3 gap-16">

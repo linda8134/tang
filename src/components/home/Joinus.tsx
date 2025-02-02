@@ -4,7 +4,7 @@ import {faDiscord, faXTwitter, faTelegram, faGithub} from '@fortawesome/free-bra
 
 export default function Index(){
   return (
-    <section className="py-20 flex items-center">
+    <section className="py-24 flex items-center">
       <div className="container mx-auto text-center space-y-6">
         <motion.h1 
           className="text-5xl md:text-4xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent leading-[2]"

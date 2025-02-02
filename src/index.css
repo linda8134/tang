@@ -4,7 +4,11 @@
 
 @layer base {
   body {
-    @apply bg-black text-white;
+    @apply bg-black text-white relative min-h-screen;
+  }
+
+  #root {
+    @apply relative z-0;
   }
 }
 
@@ -14,6 +18,11 @@
   }
   
   .btn-primary {
-    @apply px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors;
+    @apply px-6 py-3 bg-blue-600/80 backdrop-blur-sm text-white rounded-lg 
+    hover:bg-blue-700/80 transition-colors;
+  }
+
+  .aurora-blur {
+    @apply backdrop-blur-sm bg-white/5;
   }
 } 
